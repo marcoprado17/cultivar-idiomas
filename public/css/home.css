@@ -1,0 +1,203 @@
+@media screen and (max-width: 650px) {
+	#carousel-example-generic {
+		display: none;
+	}
+}
+
+.carousel {
+	margin-bottom: 18px;
+}
+
+/* To center the image in the carousel */
+.carousel-inner > .item > img {
+	margin: 0 auto;
+}
+
+.carousel-caption {
+	height: 100%;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.carousel-caption h3 {
+	animation-delay: 0.5s;
+}
+
+.carousel-text {
+	font-size: 25px;
+	color: #0e294e;
+}
+
+.carousel-small-text{
+	font-size: 16px;
+	color: #0e294e;
+}
+
+.first-flag-img-in-languages-carousel{
+	margin-top: 10px;
+}
+
+.left-languages-list {
+	text-align: right;
+    list-style-position: inside;
+}
+
+.carousel-caption a {
+	animation-delay: 0.9s;
+}
+
+.quem-somos-content-box {
+	display: flex;
+}
+
+.quem-somos-img-box {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.whatsapp-icon-img {
+	width: 48px;
+	height: 48px;
+	margin-left: 10px;
+}
+
+.quem-somos-img {
+	height: 100px;
+}
+
+.not-first-test-btn {
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 400px) {
+	.quem-somos-img {
+		display: none;
+	}
+}
+
+.quem-somos-text-box {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: 0;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.right-title {
+	text-align: right;
+}
+
+.left-languages-list {
+	margin-left: auto;
+}
+
+.right-languages-list {
+	margin-right: auto;
+}
+
+.justified {
+	text-align: justify;
+}
+
+.lang-text {
+	color: black;
+}
+
+/*.flag-img-box {
+	margin-left: 10px;
+	margin-right: 10px;
+	max-width: 70px;
+}
+
+.flag-img-box-first {
+	margin-left: auto;
+	margin-right: 10px;
+	max-width: 70px;
+}
+
+.flag-img-box-last {
+	margin-left: 10px;
+	margin-right: auto;
+	max-width: 70px;
+}*/
+
+.blockquote-content-box {
+	display: flex;
+}
+
+.blockquote-img-box {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.blockquote-img {
+	height: 100px;
+}
+
+@media screen and (max-width: 400px) {
+	.blockquote-img {
+		display: none;
+	}
+}
+
+.blockquote-text-box {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: 0;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.escolas-e-localizacao-container {
+	display: flex;
+}
+
+.escolas-e-localizacao-img-box-first {
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+.escolas-e-localizacao-img-box-last {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+.escolas-e-localizacao-img {
+	max-width: 300px;
+}
+
+@media screen and (max-width: 650px) {
+	.escolas-e-localizacao-container {
+		display: inline;
+	}
+
+	.escolas-e-localizacao-img-box-first {
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.escolas-e-localizacao-img-box-last {
+		margin-top: 12px;
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.test-btn-box {
+	text-align: center;
+	margin-bottom: 20px;
+}

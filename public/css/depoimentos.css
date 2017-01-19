@@ -1,0 +1,54 @@
+.first-blockquote {
+	margin-top: 10px;
+}
+
+.blockquote-content-box {
+	display: flex;
+}
+
+.blockquote-img-box {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.blockquote-img-box2 {
+	display: none;
+}
+
+.blockquote-img {
+	width: 100px;
+	height: 100px;
+}
+
+.blockquote-text-box {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: 0;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+@media screen and (max-width: 450px) {
+	.blockquote-content-box {
+		display: inline;
+	}
+
+	.blockquote-left-img-box {
+		display: none;
+	}
+
+	.blockquote-img-box2 {
+		display: inline;
+	}
+}
+
+.blockquote-footer {
+	text-align: left;
+}
+
+.blockquote-reverse-footer {
+	text-align: right;
+}

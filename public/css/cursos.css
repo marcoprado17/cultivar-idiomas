@@ -1,0 +1,26 @@
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+.language-title {
+	margin-left: 10px;
+}
+
+.inactive {
+	display: none;
+}
+
+.course-description {
+	text-align: justify;
+}
+
+.justified {
+	text-align: justify;
+}
+
+.first-paragraph {
+	margin-top: 15px;
+}

@@ -1,0 +1,141 @@
+/* For development purpose */
+/** {
+	outline: 1px solid red !important;
+	}*/
+
+	html {
+		position: relative; /* Required for footer posiotining */
+		min-height: 100%; /* Required for footer posiotining */
+	}
+
+	body {
+		/* Margin bottom by footer height */
+		margin-bottom: 325px; /* Required for footer posiotining */
+	}
+
+	div {
+		box-sizing: border-box;
+	}
+
+	.container {
+		max-width: 900px;
+	}
+
+	.flex-wrap {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.logo {
+		height: 100px;
+	}
+
+	.header-title-box {
+		text-align: right;
+		margin-left: auto;
+	}
+
+	.cultivar-fonte-img {
+		max-width: 230px;
+		margin-top: 15px;
+	}
+
+	.escola-de-idiomas-text {
+		margin-top: 0;
+		margin-right: 25px;
+		font-style: italic;
+		color: #858383;
+	}
+
+	.navbar {
+		margin-bottom: 0;
+	}
+
+	@media screen and (max-width: 991px) {
+		.font-resizeable-nav-bar {
+			font-size: 0.89em;
+		}
+	}
+
+	.page-footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		/* Set the fixed height of the footer here */
+		height: 325px;
+		background-color: #fff;
+	}
+
+	/*
+	@media screen and (max-width: 991px) {
+		.page-footer {
+			display: none;
+		}
+
+		body {
+			 Margin bottom by footer height 
+			margin-bottom: 0; /* Required for footer posiotining *//*
+		}
+	}
+	*/
+
+	.footer-social-networks-box {
+		text-align: center;
+		padding: 5px;
+	}
+
+	.no-underline-link {
+		text-decoration: none !important;
+	}
+
+	.social-network-icon-img {
+		width: 48px;
+		color: #635e5a;
+	}
+
+	.footer-social-content-line {
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+
+	.footer-vcenter {
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+	}
+
+	.footer-tels-box {
+		margin: auto;
+		width: 200px;
+	}
+
+	.whatsapp-tel-text-box {
+		margin: auto 0;
+	}
+
+	.whatsapp-tel-img-box {
+		margin: auto 0 auto 10px;
+	}
+
+	.footer-localization-img-box {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.footer-content-last-text-line {
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+
+	.footer-last-text-box {
+		text-align: center;
+	}
+
+	.footer-map-img {
+		max-height: 150px;
+	}
+
+	.course-img {
+		margin-bottom: 8px !important;
+		height:32px;
+	}

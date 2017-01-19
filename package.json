@@ -1,0 +1,27 @@
+{
+  "name": "educational-website",
+  "version": "0.0.1",
+  "description": "Website institucional de curso de idiomas",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+    "sendgrid": "2.0.0",
+    "body-parser": "1.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcoprado17/cultivar-idiomas.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}

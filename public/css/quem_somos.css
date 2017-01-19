@@ -1,0 +1,20 @@
+.text-box {
+	margin-top: 10px;
+}
+
+.list-item-box {
+	display: flex;
+}
+
+.ok-icon-box {
+	margin-right: 10px;
+}
+
+.item-text-box {
+
+}
+
+.list-item-hr {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
